@@ -5,7 +5,7 @@ import { close, hamburger } from "../assets/icons";
 
 import { navLinks } from "../constants";
 const Nav = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
