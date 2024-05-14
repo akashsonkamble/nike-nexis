@@ -31,7 +31,7 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
           Discover stylish Nike arrival, quality comport, and innovation for
           your active life
         </p>
-        <Button label="Shop Now" iconUrl={arrowRight} />
+        <Button label="Shop Now" iconURL={arrowRight} />
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((statistic) => (
             <div key={statistic.label}>
