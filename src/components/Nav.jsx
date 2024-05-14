@@ -43,13 +43,13 @@ const Nav = () => {
         </div>
 
         { openMenu && (
-          <div className="md:hidden bg-gray-900/90 absolute top-20 right-10 px-4 py-6 text-center rounded-md flex flex-col gap-3 shadow-md">
+          <div className="lg:hidden bg-coral-red absolute top-16 right-10 px-4 py-2 text-center rounded-md flex flex-col gap-3 shadow-md z-50">
             <ul className="flex flex-col items-center justify-center gap-4 px-4 py-8">
               {navLinks.map((link) => (
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="font-montserrat leading-normal text-lg text-gray-500"
+                    className="font-montserrat leading-normal text-lg text-white"
                   >
                     {link.label}
                   </a>
