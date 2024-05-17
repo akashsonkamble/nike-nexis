@@ -14,7 +14,7 @@ Welcome to the Nike landing page, where style meets performance in the world of 
 - **Vite**: A build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 ## Getting Started
-Clone this repository to your local machine using git clone `https://github.com/akashsonkamble/blog-breeze.git`.
+Clone this repository to your local machine using git clone `https://github.com/akashsonkamble/nike-nexis.git`.
 Navigate to the project directory and install dependencies using `npm install`.
 Start the development server using `npm run dev`.
 Open your web browser and visit `http://localhost:5173` to see the app in action.
